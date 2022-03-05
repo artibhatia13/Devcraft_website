@@ -1,8 +1,9 @@
 .landing {
-  height: 100vh;
+  /* height: 100vh; */
   color: #292828;
   background-color: #f8faff;
   display: flex;
+  overflow: hidden;
 }
 .landing .tagline {
   flex: 0.5;

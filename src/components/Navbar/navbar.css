@@ -8,6 +8,11 @@
   flex: 0.1;
   margin: auto 0;
   font-weight: 900;
+  text-decoration: none;
+  color: black;
+}
+.logo::hover {
+  color: black;
 }
 .navLinks {
   flex: 0.9;

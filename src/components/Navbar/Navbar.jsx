@@ -1,35 +1,35 @@
 import React from "react";
 import Button from "@mui/material/Button";
+import { Link } from "react-router-dom";
 import "./navbar.css";
 
 const Navbar = () => {
   return (
     <div className="navbar">
-      <div className="logo">LOGO</div>
+      <Link to="/" className="logo">
+        <div>LOGO</div>
+      </Link>
       <div className="navLinks">
         <ul>
           <div style={{ margin: "auto 0", display: "flex" }}>
-            <a href="/about">
+            <Link to="/about">
               <li>About</li>
-            </a>
-            <a href="/dashboard">
+            </Link>
+            <Link to="/dashboard">
               <li>Dashboard</li>
-            </a>
-            <a href="/marketplace">
+            </Link>
+            <Link to="/marketplace">
               <li>Marketplace</li>
-            </a>
-            <a href="/">
-              <li>Blog</li>
-            </a>
+            </Link>
           </div>
-          <a href="/login">
+          <Link to="/login">
             <Button variant="outlined" style={{ marginLeft: " 1em" }}>
               Login
             </Button>
-          </a>
-          <a href="/signup" style={{ marginRight: "0em" }}>
+          </Link>
+          <Link to="/signup" style={{ marginRight: "0em" }}>
             <Button variant="contained">Get Started</Button>
-          </a>
+          </Link>
         </ul>
       </div>
     </div>
