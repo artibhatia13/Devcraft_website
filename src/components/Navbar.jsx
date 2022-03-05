@@ -12,8 +12,8 @@ const Navbar = () => {
             <a href="/about">
               <li>About</li>
             </a>
-            <a href="/">
-              <li>Services</li>
+            <a href="/dashboard">
+              <li>Dashboard</li>
             </a>
             <a href="/signup">
               <li>Community</li>
@@ -25,7 +25,7 @@ const Navbar = () => {
           <Button variant="outlined" style={{ marginLeft: " 1em" }}>
             Login
           </Button>
-          <a href="/signup">
+          <a href="/signup" style={{ marginRight: "0em" }}>
             <Button variant="contained">Get Started</Button>
           </a>
         </ul>

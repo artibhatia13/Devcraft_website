@@ -13,12 +13,12 @@
   padding: 1.5em 3em;
 }
 .navbar .logo {
-  flex: 0.2;
+  flex: 0.1;
   margin: auto 0;
   font-weight: 900;
 }
 .navbar .navLinks {
-  flex: 0.8;
+  flex: 0.9;
   display: flex;
   justify-content: flex-end;
 }
@@ -76,4 +76,102 @@
   font-weight: 400;
   text-align: center;
   margin-bottom: 1.5em;
+}
+/* ----------------------------------------------    DASHBOARD   ------------------------------------------------------- */
+.dashboard {
+  margin: 2em 3em;
+  background-color: #f8faff;
+  height: 100vh;
+}
+.dashboard .row1 {
+  display: flex;
+}
+.dashboard .row1 .balance_card {
+  flex: 0.6;
+  display: flex;
+  background-color: white;
+  border-radius: 10px;
+  padding: 2em 3em;
+}
+.dashboard .row1 .balance_card .left {
+  flex: 0.6;
+}
+.dashboard .row1 .balance_card .right {
+  flex: 0.4;
+}
+.dashboard .row1 .balance_card .left p,
+.right p {
+  font-weight: 700;
+  font-size: 13px;
+  color: #727272;
+  opacity: 0.7;
+  margin: 0;
+}
+.dashboard .row1 .balance_card .left h3 {
+  font-weight: 400;
+  font-size: 20px;
+  margin: 1.5em 0 0.5em 0;
+}
+.dashboard .row1 .balance_card .left button {
+  margin-top: 2em;
+  margin-left: 0em !important;
+  text-transform: capitalize;
+  letter-spacing: 2px;
+  font-weight: 700;
+  font-size: 12px;
+}
+.dashboard .row1 .balance_card .right h2 {
+  font-weight: 400;
+  letter-spacing: 3px;
+}
+.dashboard .row1 .card2 {
+  flex: 0.4;
+  background-color: white;
+  border-radius: 10px;
+  margin-left: 2em;
+  padding: 2em 3em;
+}
+
+.dashboard .row2 {
+  display: flex;
+  margin-top: 2em;
+}
+.dashboard .row2 .statement {
+  flex: 0.6;
+  background-color: white;
+  border-radius: 10px;
+  padding: 2em 3em;
+}
+.dashboard .graph {
+  flex: 0.4;
+  background-color: white;
+  border-radius: 10px;
+  margin-left: 2em;
+  padding: 2em 3em;
+}
+.dashboard .row2 .statement .statement_row {
+  display: flex;
+  /* justify-content: space-between; */
+  font-weight: bold;
+  font-size: 14px;
+}
+.dashboard .row2 .statement .statement_row .time {
+  flex: 0.2;
+}
+.dashboard .row2 .statement .statement_row .amount {
+  flex: 0.2;
+  font-size: 15px;
+  text-align: end;
+}
+.dashboard .row2 .statement .statement_row .where {
+  opacity: 0.7;
+  flex: 0.2;
+}
+.dashboard .row2 .statement .statement_row .method {
+  flex: 0.3;
+  opacity: 0.5;
+}
+.dashboard .row2 .statement .statement_row .forwhat {
+  flex: 0.1;
+  opacity: 0.5;
 }
