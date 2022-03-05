@@ -1,5 +1,6 @@
 import React from "react";
-import app_display from "../assets/app_display.png";
+import app_display from "../../assets/app_display.png";
+import "./landing.css";
 
 const Landing = () => {
   return (

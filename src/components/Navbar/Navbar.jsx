@@ -1,6 +1,6 @@
 import React from "react";
 import Button from "@mui/material/Button";
-import "../App.css";
+import "./navbar.css";
 
 const Navbar = () => {
   return (
@@ -15,16 +15,18 @@ const Navbar = () => {
             <a href="/dashboard">
               <li>Dashboard</li>
             </a>
-            <a href="/signup">
-              <li>Community</li>
+            <a href="/marketplace">
+              <li>Marketplace</li>
             </a>
             <a href="/">
               <li>Blog</li>
             </a>
           </div>
-          <Button variant="outlined" style={{ marginLeft: " 1em" }}>
-            Login
-          </Button>
+          <a href="/login">
+            <Button variant="outlined" style={{ marginLeft: " 1em" }}>
+              Login
+            </Button>
+          </a>
           <a href="/signup" style={{ marginRight: "0em" }}>
             <Button variant="contained">Get Started</Button>
           </a>

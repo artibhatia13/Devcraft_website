@@ -1,0 +1,27 @@
+.landing {
+  height: 100vh;
+  color: #292828;
+  background-color: #f8faff;
+  display: flex;
+}
+.landing .tagline {
+  flex: 0.5;
+  margin-top: 12%;
+  margin-left: 3em;
+}
+.landing .tagline h1 {
+  font-weight: 800;
+  font-size: 65px;
+  margin: 0;
+}
+.landing .tagline h5 {
+  font-weight: 200;
+  font-size: 27px;
+  margin: 0.5em 0;
+}
+.landing .landing_img {
+  flex: 0.5;
+}
+.landing .landing_img img {
+  width: 100%;
+}

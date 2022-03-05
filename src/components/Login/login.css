@@ -1,0 +1,31 @@
+.login {
+  margin: 2em 0;
+  height: 100vh;
+  color: #292828;
+  background-color: #f8faff;
+  display: flex;
+  justify-content: center;
+}
+.formContainer {
+  margin-top: 4%;
+  height: fit-content;
+  background-color: white;
+  border-radius: 10px;
+  padding: 0.5em 4em 2.5em 4em;
+}
+.formContainer form {
+  display: flex;
+  justify-content: center;
+}
+h1 {
+  font-weight: 400;
+  text-align: center;
+  margin-bottom: 1em;
+}
+.formContainer form div button {
+  margin: 0.5em 0 0 0;
+  padding: 0.7em 0;
+  width: 100%;
+  text-transform: capitalize;
+  font-size: 17px;
+}
