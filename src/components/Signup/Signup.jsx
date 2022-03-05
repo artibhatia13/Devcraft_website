@@ -1,11 +1,12 @@
 import React from "react";
+import Button from "@mui/material/Button";
 import TextField from "@mui/material/TextField";
 import "./signup.css";
 
 const Signup = () => {
   return (
     <div className="signup">
-      <div className="form">
+      <div className="formContainer">
         <h1>Open new account</h1>
         <form action="">
           <div>
@@ -43,6 +44,11 @@ const Signup = () => {
               variant="outlined"
               style={{ width: "25em" }}
             />
+            <br />
+            <br />
+            <div style={{ textAlign: "center" }}>
+              <Button variant="contained">Sign Up</Button>
+            </div>
           </div>
         </form>
       </div>
