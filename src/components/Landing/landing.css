@@ -2,28 +2,93 @@
   /* height: 100vh; */
   color: #292828;
   background-color: #f8faff;
+}
+.mainscreen {
   display: flex;
   overflow: hidden;
 }
 .landing .tagline {
   flex: 0.5;
-  margin-top: 12%;
+  margin-top: 10%;
   margin-left: 3em;
 }
-.landing .tagline h1 {
+.landing h1 {
   font-weight: 800;
   font-size: 65px;
   margin: 0;
   text-align: left;
 }
-.landing .tagline h5 {
+.tagline h5 {
   font-weight: 200;
   font-size: 27px;
   margin: 0.5em 0;
 }
-.landing .landing_img {
+.tagline button {
+  margin-top: 1em;
+  padding: 1em 4em;
+}
+.landing_img {
   flex: 0.5;
 }
-.landing .landing_img img {
+.landing_img img {
   width: 100%;
+}
+.partners {
+  margin-top: 10em;
+}
+.landing h2 {
+  font-weight: 800;
+  font-size: 50px;
+  margin: 0;
+  text-align: center;
+}
+.partners .images {
+  margin-top: 6em;
+}
+.partners .images img {
+  height: 3em;
+  border: 1px solid rgba(82, 82, 82, 0.301);
+  padding: 3em 5em;
+}
+
+.features {
+  margin: 10em 4em 0 4em;
+}
+.feat_body {
+  display: flex;
+  justify-content: center;
+}
+.feat_container {
+  flex: 0.25;
+  margin: 0 1em;
+}
+.feat_body img {
+  height: 7em;
+  display: block;
+  margin: 0 auto;
+}
+.feat_body p {
+  text-align: center;
+  /* width: 80%; */
+  margin-top: 3em;
+}
+
+.steps {
+  margin: 10em 4em 0 4em;
+}
+.faq {
+  margin: 10em 4em 0 4em;
+}
+.faq_body {
+  display: flex;
+  justify-content: center;
+  margin-top: 6em;
+  /* background-color: red; */
+  /* width: 80%; */
+}
+.faq_q {
+  padding: 1em 2em;
+}
+.css-1elwnq4-MuiPaper-root-MuiAccordion-root.Mui-expanded:first-of-type {
+  margin-bottom: -0em;
 }

@@ -4,7 +4,7 @@
   color: #292828;
   background-color: #f8faff;
 }
-.row1 {
+.dashboard .row1 {
   display: flex;
 }
 .balance_card {
@@ -79,7 +79,7 @@
 .statement_row .time {
   flex: 0.2;
 }
-.statement_row .amount {
+.amount {
   flex: 0.2;
   font-size: 15px;
   text-align: end;
@@ -92,7 +92,10 @@
   flex: 0.3;
   opacity: 0.5;
 }
-.statement_row .forwhat {
+.forwhat {
   flex: 0.1;
   opacity: 0.5;
+}
+.expense {
+  display: flex;
 }

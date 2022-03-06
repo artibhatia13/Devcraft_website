@@ -1,0 +1,8 @@
+.footer {
+  /* height: 100vh; */
+  margin: 10em 0 0 0;
+  padding: 2em 4em 2em 0;
+  color: #e7e7e7;
+  background-color: black;
+  display: flex;
+}

@@ -1,6 +1,7 @@
 import React from "react";
 import Button from "@mui/material/Button";
 import "./dashboard.css";
+import graph from "../../assets/graph.png";
 
 const Dashboard = () => {
   return (
@@ -44,7 +45,28 @@ const Dashboard = () => {
           </div>
         </div>
         <div className="graph">
-          <h5>graph</h5>
+          <h5>All expenses</h5>
+          <div className="expense">
+            <div style={{ flex: "0.33" }}>
+              <p className="forwhat">Daily</p>
+              <p className="amount" style={{ textAlign: "start" }}>
+                400.00
+              </p>
+            </div>
+            <div style={{ flex: "0.33" }}>
+              <p className="forwhat">Weekly</p>
+              <p className="amount" style={{ textAlign: "start" }}>
+                26000.00
+              </p>
+            </div>
+            <div style={{ flex: "0.33" }}>
+              <p className="forwhat">Monthly</p>
+              <p className="amount" style={{ textAlign: "start" }}>
+                100000.00
+              </p>
+            </div>
+          </div>
+          <img src={graph} alt="grph" style={{ height: "13em" }} />
         </div>
       </div>
     </div>
