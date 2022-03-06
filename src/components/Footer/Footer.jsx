@@ -15,7 +15,7 @@ const Footer = () => {
         <p>Savings</p>
       </div>
       <div style={{ flex: "0.2" }}>
-        <h4>Neo-Bank</h4>
+        <h4>Tred-Bank</h4>
         <p>About</p>
         <p>Contact info</p>
         <p>Careers</p>

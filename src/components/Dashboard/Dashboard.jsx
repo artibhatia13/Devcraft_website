@@ -11,7 +11,7 @@ const Dashboard = () => {
         <div className="balance_card">
           <div className="left">
             <p>Main account</p>
-            <h3>NeoBank savings account</h3>
+            <h3>TredBank savings account</h3>
             <p style={{ letterSpacing: "2px" }}>55999 4854 9200 03484</p>
             <Button variant="contained" style={{ marginLeft: " 1em" }}>
               Transfer Money

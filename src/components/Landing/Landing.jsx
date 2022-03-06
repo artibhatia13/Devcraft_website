@@ -37,7 +37,7 @@ const Landing = () => {
       <div className="mainscreen">
         <div className="tagline">
           <h1>Banking must be smarter</h1>
-          <h5>We help you get complete control over your money.</h5>
+          <h5>We help you tread your money matters wisely and conviniently.</h5>
           <Button variant="contained">Download Now !</Button>
         </div>
         <div className="landing_img">
