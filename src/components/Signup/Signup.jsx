@@ -21,7 +21,6 @@ const Signup = () => {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-    console.log("hi");
     const auth = getAuth();
     try {
       const { user } = await createUserWithEmailAndPassword(
