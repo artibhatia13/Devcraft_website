@@ -36,6 +36,7 @@ const Signup = () => {
         phoneNumber,
         upiId,
         userId: user.uid,
+        tokens: 50,
       };
       await setDoc(doc(fireStoreDb, "users", user.uid), obj);
       alert("Successfully signed up✨");
