@@ -1,8 +1,26 @@
 .marketplace {
   margin: 2em 0;
-  height: 100vh;
   color: #292828;
   background-color: #f8faff;
+}
+.marketplace .body {
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
+}
+.body {
+  margin-top: 3em;
+}
+.body .card img {
+  height: 14em;
+  width: 100%;
+  object-fit: cover;
+}
+.card {
+  border: 1px solid rgba(119, 119, 119, 0.384);
+  margin: 1.5em;
+  width: 18em;
+}
+.cardbody {
+  margin: 1em;
 }
